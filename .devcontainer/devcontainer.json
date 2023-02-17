@@ -7,6 +7,15 @@
         // Path is relataive to the devcontainer.json file.
         "dockerfile": "Dockerfile"
     },
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"rust-lang.rust-analyzer"
+			]
+		}
+	},
+
 	"features": {
 		
 	}
